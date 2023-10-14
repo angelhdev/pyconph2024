@@ -1,0 +1,30 @@
+{
+  "name": "pyconph2024",
+  "version": "1.0.0",
+  "description": "PyCon PH 2024",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "build-css": "tailwindcss -i ./sass/styles.scss -o ../dist/css/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.31",
+    "postcss-import": "^15.1.0",
+    "purgecss": "^5.0.0",
+    "sass": "^1.69.3",
+    "tailwindcss": "^3.3.3",
+    "terser": "^5.21.0"
+  }
+}
